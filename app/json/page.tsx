@@ -17,7 +17,7 @@ export default async function Json() {
   return (
     <div>
       {
-        data.quotes.map((item) => (
+        data.quotes.map((item:any) => (
           <div className={styles.json} key={item.id}>
             <div className={styles.fieldJson}>{item.id}</div>
             <div className={styles.fieldJson}>{item.author}</div>
