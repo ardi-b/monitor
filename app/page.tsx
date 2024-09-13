@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 // import { supabase } from '../lib/initSupabase';
 
 export default function Home() {
