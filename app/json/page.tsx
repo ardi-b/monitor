@@ -14,10 +14,16 @@ export default async function Json() {
 
   const data = await getJson()
 
+  interface Quote {
+    id: string;       // or number, depending on the actual type
+    author: string;
+    quote: string;
+  }
+
   return (
     <div>
       {
-        data.quotes.map((item:any) => (
+        data.quotes.map((item:Quote) => (
           <div className={styles.json} key={item.id}>
             <div className={styles.fieldJson}>{item.id}</div>
             <div className={styles.fieldJson}>{item.author}</div>
