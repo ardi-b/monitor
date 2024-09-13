@@ -1,18 +1,30 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import { useEffect, useState } from 'react';
+// import { supabase } from '../lib/initSupabase';
 
 export default function Home() {
+  // const [countries, setCountries] = useState([]);
+
+  // const fetchCountries = async () => {
+  //   const { data: countries } = await supabase
+  //     .from('pages')
+  //     .select('*')
+  //     .order('title', true);
+  //   setCountries(countries);
+  // };
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <Image
+        {/* <Image
           className={styles.logo}
           src="https://nextjs.org/icons/next.svg"
           alt="Next.js logo"
           width={180}
           height={38}
           priority
-        />
+        /> */}
         <ol>
           <li>
             Get started by editing <code>app/page.tsx</code>.

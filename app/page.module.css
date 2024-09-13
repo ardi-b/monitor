@@ -107,6 +107,26 @@ a.secondary {
 
 .bottom_navbar {
   background-color: var(--color1);
+  /* background-color: #333; */
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  gap: 24px;
+  justify-content: center;
+}
+
+.jsonWrap{
+  display: flex;
+}
+
+.fieldJson{
+  display: table-cell;
+}
+
+.json{
+  display: table-row;
 }
 
 /* Enable hover only on non-touch devices */
