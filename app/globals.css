@@ -1,13 +1,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --color1:#373737;
+  --color1: #efefef;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --color1:#141414;
   }
 }
 
@@ -34,6 +35,14 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.content{
+  /* background-color: grey; */
+  position: sticky;
+  bottom: 40px;  
+  overflow: auto;
+  margin-bottom: 50px;
 }
 
 @media (prefers-color-scheme: dark) {

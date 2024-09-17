@@ -105,6 +105,8 @@ a.secondary {
   flex-shrink: 0;
 }
 
+
+
 .bottom_navbar {
   background-color: var(--color1);
   /* background-color: #333; */
@@ -115,6 +117,7 @@ a.secondary {
   width: 100%;
   gap: 24px;
   justify-content: center;
+  padding: 10px 0;
 }
 
 .jsonWrap{
@@ -123,6 +126,7 @@ a.secondary {
 
 .fieldJson{
   display: table-cell;
+  padding: 4px;
 }
 
 .json{
