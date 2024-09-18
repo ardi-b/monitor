@@ -105,15 +105,24 @@ a.secondary {
   flex-shrink: 0;
 }
 
-
-
 .bottom_navbar {
   background-color: var(--color1);
-  /* background-color: #333; */
   overflow: hidden;
   position: fixed;
   display: flex;
   bottom: 0;
+  width: 100%;
+  gap: 24px;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.top_navbar {
+  background-color: transparent;
+  overflow: hidden;
+  position: fixed;
+  display: flex;
+  top: 0;
   width: 100%;
   gap: 24px;
   justify-content: center;

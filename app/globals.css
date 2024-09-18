@@ -38,11 +38,9 @@ a {
 }
 
 .content{
-  /* background-color: grey; */
-  position: sticky;
-  bottom: 40px;  
+  /* position: sticky; */
   overflow: auto;
-  margin-bottom: 50px;
+  margin: 80px;
 }
 
 @media (prefers-color-scheme: dark) {
